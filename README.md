@@ -14,8 +14,10 @@ Registries
 
 Automated builds are available at [GitLab](https://gitlab.com/gbraad/kubernetes-client)
 
+  * Alpine:  
+    `docker pull registry.gitlab.com/gbraad/kubernetes-client:alpine`
   * Fedora:  
-    `docker pull registry.gitlab.com/gbraad/openstack-client:fedora`
+    `docker pull registry.gitlab.com/gbraad/kubernetes-client:fedora`
 
 
 ### Docker hub
@@ -23,8 +25,10 @@ Automated builds are available at [GitLab](https://gitlab.com/gbraad/kubernetes-
 Alternative [automated build](https://hub.docker.com/r/gbraad/kubernetes-client/) images
 are available from the Docker registry.
 
+  * Alpine:  
+    `docker pull gbraad/kubernetes-client:alpine`
   * Fedora:  
-    `docker pull gbraad/openstack-client:fedora`
+    `docker pull gbraad/kubernetes-client:fedora`
 
 
 Usage
