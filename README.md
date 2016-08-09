@@ -7,6 +7,22 @@ Kubernetes client
 Docker container image with the Kubernetes client.
 
 
+
+
+Motivation
+----------
+
+Although you can easily install a statically compiled `kubectl` as follows:
+
+```
+$ wget http://storage.googleapis.com/kubernetes-release/release/v1.3.4/bin/linux/amd64/kubectl
+$ chmod +x kubectl
+```
+
+the Fedora based container will be used for `ansible-container` to perform
+container compostion and deployment.
+
+
 Registries
 ----------
 
