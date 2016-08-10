@@ -60,7 +60,7 @@ Setup a local alias makes running the container a lot easier
 #### Container based on _Fedora_
 
 ```
-$ alias kubectl='docker run -it --rm registry.gitlab.com/gbraad/kubernetes-client:fedora kubectl'
+$ alias kubectl='docker run -it --rm -v $PWD:/workspace registry.gitlab.com/gbraad/kubernetes-client:fedora kubectl'
 ```
 
 
