@@ -19,7 +19,7 @@ $ wget http://storage.googleapis.com/kubernetes-release/release/v1.3.4/bin/linux
 $ chmod +x kubectl
 ```
 
-Note: this can also be seen in the `scratch` container build.
+Note: this can also be seen in the `scratch` (static) container build.
 
 However, the Fedora based container will be used for `ansible-container` to perform
 container compostion and deployment. This means that everything to maintain the lifecycle
@@ -33,8 +33,8 @@ Registries
 
 Automated builds are available at [GitLab](https://gitlab.com/gbraad/kubernetes-client)
 
-  * Alpine:  
-    `docker pull registry.gitlab.com/gbraad/kubernetes-client:alpine`
+  * Static:  
+    `docker pull registry.gitlab.com/gbraad/kubernetes-client:static`
   * Fedora:  
     `docker pull registry.gitlab.com/gbraad/kubernetes-client:fedora`
 
@@ -44,8 +44,6 @@ Automated builds are available at [GitLab](https://gitlab.com/gbraad/kubernetes-
 Alternative [automated build](https://hub.docker.com/r/gbraad/kubernetes-client/) images
 are available from the Docker registry.
 
-  * Alpine:  
-    `docker pull gbraad/kubernetes-client:alpine`
   * Fedora:  
     `docker pull gbraad/kubernetes-client:fedora`
 
