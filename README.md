@@ -19,8 +19,11 @@ $ wget http://storage.googleapis.com/kubernetes-release/release/v1.3.4/bin/linux
 $ chmod +x kubectl
 ```
 
-the Fedora based container will be used for `ansible-container` to perform
-container compostion and deployment.
+Note: this can also be seen in the `scratch` container build.
+
+However, the Fedora based container will be used for `ansible-container` to perform
+container compostion and deployment. This means that everything to maintain the lifecycle
+of your app will be available from a single container.
 
 
 Registries
